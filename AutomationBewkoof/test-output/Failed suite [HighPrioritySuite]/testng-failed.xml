@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Failed suite [HighPrioritySuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testpackBewkoof.ToVerifyShirtSection">
+        <methods>
+          <include name="veriftShirtDetailsAfterClicking"/>
+          <include name="afterMethod"/>
+          <include name="clearObject"/>
+          <include name="openApplication"/>
+          <include name="launchBrowser"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testpackBewkoof.ToVerifyShirtSection -->
+      <class name="testpackBewkoof.ToVerifyHomePage">
+        <methods>
+          <include name="openApplication"/>
+          <include name="beforeTest"/>
+          <include name="clearObject"/>
+          <include name="logOutBrowser"/>
+          <include name="afterTest"/>
+          <include name="verifyLoginButtononHomePage"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testpackBewkoof.ToVerifyHomePage -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+  <test thread-count="2" parallel="classes" name="FirefoxTest(failed)(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testpackBewkoof.ToVerifyShirtSection">
+        <methods>
+          <include name="veriftShirtDetailsAfterClicking"/>
+          <include name="afterMethod"/>
+          <include name="clearObject"/>
+          <include name="openApplication"/>
+          <include name="launchBrowser"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testpackBewkoof.ToVerifyShirtSection -->
+      <class name="testpackBewkoof.ToVerifyHomePage">
+        <methods>
+          <include name="openApplication"/>
+          <include name="beforeTest"/>
+          <include name="clearObject"/>
+          <include name="logOutBrowser"/>
+          <include name="afterTest"/>
+          <include name="verifyLoginButtononHomePage"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testpackBewkoof.ToVerifyHomePage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [HighPrioritySuite]] -->
