@@ -37,7 +37,7 @@ public class HomepageBewkoof {
 	public void clickonLoginButtnOnHomePage () {
 		login.click();
 	}
-	
+	//changes
 	public void loginToWebsite () {
 		loginByEmailButton.click();
 //		mailID.sendKeys("randhepankaj@gmail.com");
