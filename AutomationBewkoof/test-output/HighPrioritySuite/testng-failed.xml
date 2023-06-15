@@ -11,10 +11,24 @@
           <include name="clearObject"/>
           <include name="openApplication"/>
           <include name="launchBrowser"/>
+          <include name="verifyTitleofShirtSectionPage"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- testpackBewkoof.ToVerifyShirtSection -->
+      <class name="testpackBewkoof.ToVerifyHomePage">
+        <methods>
+          <include name="openApplication"/>
+          <include name="beforeTest"/>
+          <include name="verifyMenSectionafterClickingMenTab"/>
+          <include name="clearObject"/>
+          <include name="enterLoginDetail"/>
+          <include name="logOutBrowser"/>
+          <include name="afterTest"/>
+          <include name="verifyLoginButtononHomePage"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testpackBewkoof.ToVerifyHomePage -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
   <test thread-count="2" parallel="classes" name="FirefoxTest(failed)">
